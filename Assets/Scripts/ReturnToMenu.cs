@@ -1,21 +1,26 @@
 using UnityEngine;
-using UnityEngine.SceneManagement; // Súper importante para poder viajar entre escenas
+using UnityEngine.SceneManagement;
 
+// Un script muy conciso y directo para el botón de "Volver al Menú Principal".
+// Se utiliza en la pantalla de Game Over y en el menú de Pausa.
 public class ReturnToMenu : MonoBehaviour
 {
     [Header("Configuración")]
-    // Pon aquí el nombre exacto de tu escena del menú (ej: "MainMenu" o "MenuScene")
+    // El nombre exacto de la pantalla principal a la que queremos volver
     public string mainMenuSceneName = "MainMenu";
 
-    // Esta es la función que llamará nuestro botón
+    // Esta es la función que se ejecuta al hacer clic en el botón
     public void GoToMainMenu()
     {
-        // 1. Descongelamos el juego ANTES de cambiar de escena
-        // Si no hacemos esto, el menú principal cargaría con el tiempo detenido en 0
+        // 1. DESCONGELAR EL TIEMPO
+        // Esto es absolutamente crítico. Si volvemos al menú mientras el juego estaba pausado 
+        // o durante la pantalla de Game Over (donde el tiempo se detiene), 
+        // el menú principal cargaría congelado. 
         Time.timeScale = 1f;
         PauseController.SetPause(false);
 
-        // 2. Cargamos la escena del Menú Principal
+        // 2. CARGAR EL MENÚ
+        // Una vez el flujo del tiempo vuelve a la normalidad, viajamos a la pantalla inicial
         SceneManager.LoadScene(mainMenuSceneName);
     }
 }

@@ -1766,6 +1766,7 @@ MonoBehaviour:
   optionsPanel: {fileID: 689725446}
   sfxSlider: {fileID: 1694256894}
   musicSlider: {fileID: 1448814108}
+  cinematicSceneName: CinematicScene
   firstLevelName: GameScene
   blinkSpeed: 1.3
   minAlpha: 0.2
@@ -2225,6 +2226,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: SoundEffectManager
       objectReference: {fileID: 0}
+    - target: {fileID: 7921964905493997239, guid: 6fa62de95ce9ceb41b7a6974cd8203bb, type: 3}
+      propertyPath: soundEffectGroups.Array.size
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 7921964905493997239, guid: 6fa62de95ce9ceb41b7a6974cd8203bb, type: 3}
+      propertyPath: soundEffectGroups.Array.data[17].name
+      value: NegociationSound
+      objectReference: {fileID: 0}
+    - target: {fileID: 7921964905493997239, guid: 6fa62de95ce9ceb41b7a6974cd8203bb, type: 3}
+      propertyPath: soundEffectGroups.Array.data[17].volume
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 7921964905493997239, guid: 6fa62de95ce9ceb41b7a6974cd8203bb, type: 3}
+      propertyPath: soundEffectGroups.Array.data[17].audioClips.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7921964905493997239, guid: 6fa62de95ce9ceb41b7a6974cd8203bb, type: 3}
+      propertyPath: 'soundEffectGroups.Array.data[17].audioClips.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 2d120d28e85e50e4fa30560086d558d5, type: 3}
     - target: {fileID: 8104139642540769603, guid: 6fa62de95ce9ceb41b7a6974cd8203bb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 972.7925

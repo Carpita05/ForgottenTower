@@ -1,13 +1,16 @@
 using UnityEngine;
 using System.Collections;
 
+// Este script controla la vida de los enemigos normales.
+// Además de gestionar el daño y los puntos, incluye la mecánica estrella del juego:
+// ¡El sistema de negociación! Si le haces mucho daño, el enemigo puede pedirte piedad.
 public class EnemyHealth : MonoBehaviour
 {
     [Header("Configuración de Vida")]
     public int maxHealth = 3;
     private int currentHealth;
 
-    [Header("Knockback")]
+    [Header("Knockback (Empujón al recibir daño)")]
     public float knockbackForce = 5f;
     public float knockbackDuration = 0.2f;
 
@@ -29,8 +32,10 @@ public class EnemyHealth : MonoBehaviour
     private EnemyFollow followScript;
     private SpriteRenderer spriteRenderer;
 
-    // --- NUEVO: Variables de Negociación ---
+    // --- Variables del Sistema de Negociación ---
+    // Un seguro para que el enemigo solo intente rendirse una sola vez por combate.
     private bool hasNegotiated = false;
+    // Si rechazamos la paz, esta variable se activa para darnos el triple de puntos al matarlo.
     private bool givesTriplePoints = false;
 
     void Start()
@@ -41,21 +46,26 @@ public class EnemyHealth : MonoBehaviour
         followScript = GetComponent<EnemyFollow>();
         spriteRenderer = GetComponent<SpriteRenderer>();
 
+        // Buscamos automáticamente al jugador al empezar.
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         if (player != null) playerTransform = player.transform;
     }
 
     void Update()
     {
+        // Control de distancias y música dinámica.
         if (playerTransform != null && followScript != null && currentHealth > 0)
         {
             float distance = Vector2.Distance(transform.position, playerTransform.position);
 
+            // Si el jugador entra en nuestro rango visual, avisamos al sistema de música
+            // para que cambie a la canción de combate.
             if (!playerDetected && distance <= followScript.detectionRange)
             {
                 playerDetected = true;
                 if (LevelMusicManager.Instance != null) LevelMusicManager.Instance.AddEnemyToCombat(false);
             }
+            // Si el jugador huye y se aleja lo suficiente, volvemos a la música tranquila.
             else if (playerDetected && distance > followScript.detectionRange + 2f)
             {
                 playerDetected = false;
@@ -63,6 +73,7 @@ public class EnemyHealth : MonoBehaviour
             }
         }
 
+        // Cronómetro para penalizar los puntos si tardamos mucho en matarlo.
         if (playerDetected && currentHealth > 0)
         {
             detectionTimer += Time.deltaTime;
@@ -76,19 +87,23 @@ public class EnemyHealth : MonoBehaviour
         currentHealth -= damage;
 
         // --- SISTEMA DE NEGOCIACIÓN ---
-        // Si la vida baja de la mitad (y sigue vivo), y no ha negociado antes:
+        // Si la vida del enemigo baja a la mitad o menos (pero sigue vivo),
+        // y aún no ha intentado rendirse en este combate:
         if (currentHealth > 0 && currentHealth <= (maxHealth / 2) && !hasNegotiated)
         {
-            hasNegotiated = true; // Solo intentará negociar 1 vez por combate
+            // Marcamos que ya ha intentado negociar para que no lo haga con cada golpe.
+            hasNegotiated = true;
 
-            // 10% de probabilidad (Para hacer pruebas en Unity ponlo temporalmente a 100f)
+            // Tiramos un dado invisible del 0 al 100.
+            // Hay un 10% de probabilidades de que el enemigo pida piedad (Poder de Nicky).
             if (Random.Range(0f, 100f) <= 10f)
             {
                 if (NegotiationManager.Instance != null)
                 {
+                    // Congelamos el combate y abrimos la ventana de diálogo para decidir su destino.
                     NegotiationManager.Instance.StartNegotiation(this);
                     SoundEffectManager.Play("NegociationSound");
-                    return; // Detenemos el knockback para que el juego se pause limpiamente
+                    return; // Cancelamos el empujón hacia atrás para que el juego se pause limpiamente y en el sitio.
                 }
             }
         }
@@ -105,14 +120,16 @@ public class EnemyHealth : MonoBehaviour
         }
     }
 
-    // --- NUEVO: Función para cuando rechazas la paz ---
+    // --- Función para cuando rechazamos la paz ---
+    // Si decidimos no perdonarle la vida, el enemigo se enfada.
     public void EnrageForTriplePoints()
     {
         givesTriplePoints = true;
-        // Pinta al enemigo de rojo sutilmente para indicar que está furioso por rechazarle
+        // Pintamos el dibujo del enemigo de un tono rojizo para que el jugador vea que está furioso.
         if (spriteRenderer != null) spriteRenderer.color = new Color(1f, 0.6f, 0.6f);
     }
 
+    // Función que empuja al enemigo hacia atrás al recibir daño.
     private IEnumerator KnockbackRoutine(Transform attacker)
     {
         if (rb != null)
@@ -130,6 +147,7 @@ public class EnemyHealth : MonoBehaviour
     {
         if (!string.IsNullOrEmpty(deathSoundName)) SoundEffectManager.Play(deathSoundName);
 
+        // Si morimos, le decimos a la música que hay un enemigo menos persiguiéndonos.
         if (playerDetected)
         {
             if (LevelMusicManager.Instance != null) LevelMusicManager.Instance.RemoveEnemyFromCombat(false);
@@ -138,6 +156,7 @@ public class EnemyHealth : MonoBehaviour
 
         int finalPoints = basePoints;
 
+        // Restamos puntos si el combate duró más de 3 segundos de tiempo efectivo.
         if (detectionTimer > 3f)
         {
             float penaltyTime = detectionTimer - 3f;
@@ -145,6 +164,7 @@ public class EnemyHealth : MonoBehaviour
             finalPoints = Mathf.Max(finalPoints, minPoints);
         }
 
+        // ¡PREMIO POR SER CRUEL! Si lo matamos después de rechazar su rendición, la puntuación obtenida se multiplica por 3.
         if (givesTriplePoints)
         {
             finalPoints *= 3;

@@ -1,12 +1,17 @@
 using UnityEngine;
 
-public class StrengthPotionItem : Item // ¡Heredamos de Item igual que la de vida!
+// Este script define un objeto consumible específico: La Poción de Fuerza.
+// Hereda de la clase base "Item", por lo que ya sabe cómo apilarse y moverse por la mochila;
+// aquí solo programamos qué hace de forma única al ser bebida.
+public class StrengthPotionItem : Item
 {
     [Header("Poción de Fuerza")]
-    public int damageIncreaseAmount = 1;
+    public int damageIncreaseAmount = 1; // Cuántos puntos de daño extra nos da
 
+    // Reescribimos la función de uso genérica
     public override void UseItem()
     {
+        // 1. Buscamos al jugador
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         if (player != null)
         {
@@ -14,22 +19,19 @@ public class StrengthPotionItem : Item // ¡Heredamos de Item igual que la de vid
 
             if (combatScript != null)
             {
-                // 1. Subimos el daño de forma permanente
+                // 2. Le subimos el daño de forma permanente para el resto de la partida
                 combatScript.IncreaseDamage(damageIncreaseAmount);
 
-                // Opcional: Reproducir sonido de beber
-                // SoundEffectManager.Play("DrinkPotion");
-
-                // 2. Le restamos 1 a la cantidad de este objeto en el inventario
+                // 3. Gastamos la poción: restamos 1 a la cantidad del montón
                 RemoveFromStack(1);
 
-                // 3. Avisamos al InventoryController para que actualice la interfaz visual
+                // 4. Avisamos a la mochila para que actualice los números en pantalla
                 if (InventoryController.Instance != null)
                 {
                     InventoryController.Instance.RebuildItemCounts();
                 }
 
-                // 4. Si la cantidad llega a 0, vaciamos el slot y destruimos el objeto
+                // 5. Si nos hemos bebido la última, vaciamos el hueco y borramos la imagen
                 if (quantity <= 0)
                 {
                     Slot mySlot = GetComponentInParent<Slot>();
