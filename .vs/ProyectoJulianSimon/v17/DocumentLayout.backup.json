@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\juli1\\ProyectoJulianSimon\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|c:\\users\\juli1\\proyectojuliansimon\\assets\\scripts\\bosshealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bosshealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|C:\\Users\\juli1\\ProyectoJulianSimon\\assets\\scripts\\mainmenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|C:\\Users\\juli1\\ProyectoJulianSimon\\assets\\scripts\\soundeffectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\soundeffectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|C:\\Users\\juli1\\ProyectoJulianSimon\\assets\\scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|C:\\Users\\juli1\\ProyectoJulianSimon\\assets\\scripts\\negotiaztionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\negotiaztionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|C:\\Users\\juli1\\ProyectoJulianSimon\\assets\\scripts\\cinematiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cinematiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SoundEffectManager.cs",
+              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\SoundEffectManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SoundEffectManager.cs",
+              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\SoundEffectManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SoundEffectManager.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAkwE8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T15:42:43.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NegotiaztionManager.cs",
+              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\NegotiaztionManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NegotiaztionManager.cs",
+              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\NegotiaztionManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NegotiaztionManager.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAowHYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T18:24:58.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainMenuManager.cs",
+              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\MainMenuManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenuManager.cs",
+              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\MainMenuManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainMenuManager.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAjwE0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T18:07:14.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EnemyHealth.cs",
+              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\EnemyHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyHealth.cs",
+              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\EnemyHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyHealth.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAswFQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T17:37:09.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BossHealth.cs",
+              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\BossHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BossHealth.cs",
+              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\BossHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BossHealth.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAIwEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T12:01:24.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CinematicController.cs",
+              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\CinematicController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CinematicController.cs",
+              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\CinematicController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CinematicController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAgwCwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T14:56:38.411Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

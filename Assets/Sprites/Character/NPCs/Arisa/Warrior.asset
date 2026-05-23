@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2342986f3dcf9941b378fe148a48aec, type: 3}
+  m_Name: Warrior
+  m_EditorClassIdentifier: Assembly-CSharp::NPCDialog
+  npcName: Elfa Arisa
+  npcPortrait: {fileID: 3310002292416464744, guid: ad6d4500384a41e429e2e7cb9ca9fe68, type: 3}
+  dialogueLines:
+  - Mmmph...
+  - "\xA1Alto! No des ni un solo paso m\xE1s ser errante."
+  - "No creo que sepas donde te has metido, \xBFverdad?"
+  - En ese caso no tengo nada que decirte sigue tu camino
+  - "Ya me imaginaba yo, pero no ser\xE9 quien estropee la sorpresa preparate bien
+    antes de seguir ascendiendo"
+  autoProgressLines: 
+  endDialoguesLines: 0000000101
+  autoProgressDelay: 1.5
+  typingSpeed: 0.05
+  voiceSound: {fileID: 8300000, guid: 0a2ae5145ea09d744b8857868a08b477, type: 3}
+  voicePitch: 1.2
+  choices:
+  - dialogueIndex: 2
+    choices:
+    - "\xA1Claro que lo se!"
+    - Pues no la verdad...
+    nextDialogueIndexes: 0300000004000000
+    giveQuest: 0000
+  questInProgressIndex: 0
+  questCompletedIndex: 0
+  quest: {fileID: 0}

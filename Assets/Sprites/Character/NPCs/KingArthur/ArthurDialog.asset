@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2342986f3dcf9941b378fe148a48aec, type: 3}
+  m_Name: ArthurDialog
+  m_EditorClassIdentifier: Assembly-CSharp::NPCDialog
+  npcName: Rey Arturo
+  npcPortrait: {fileID: 4201341041306019996, guid: 275c5dc8164d6f6468ee8c238f95db56, type: 3}
+  dialogueLines:
+  - "Bienaventurado eres joven caballero por llegar aqui yo que te he visto llegar
+    desde fuera. Mi nombre, es Arturo rey de breta\xF1a"
+  - "Que joven eres tu edad yo recien habia sustraido la espada de la piedra. La
+    cual me nombr\xF3 rey de Britania y me permitio formar Camelot"
+  - "En fin intuyo que pese a tu corta edad has sido convocado por el peque\xF1o
+    angel igual que yo."
+  - "Estate orgulloso joven pues has llegado m\xE1s lejos que muchos otros, yo que
+    he bajado solo para verte donde has llegado"
+  - "Los dem\xE1s y yo hemos llegado hasta al piso 50 a partir de ah\xED los monstruos
+    son increiblemente fuertes"
+  - "Dicho todo esto sigue yo avanzar\xE9 m\xE1s all\xE1 espero llegar a verte en
+    un futuro, en esta inmensa torre, olvidada de la historia, donde la lengua no
+    tiene sentido"
+  autoProgressLines: 
+  endDialoguesLines: 000000000001
+  autoProgressDelay: 1.5
+  typingSpeed: 0.05
+  voiceSound: {fileID: 8300000, guid: da475bfa5413df24383f3a5cff9387dd, type: 3}
+  voicePitch: 0.5
+  voiceVolume: 0.2
+  choices: []
+  questInProgressIndex: 0
+  questCompletedIndex: 0
+  quest: {fileID: 0}

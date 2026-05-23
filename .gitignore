@@ -1,0 +1,28 @@
+# Carpetas generadas por Unity (¡NO SUBIR!)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# Archivos de Visual Studio y temporales
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Ignorar archivos ocultos del sistema operativo
+.DS_Store
+Thumbs.db
