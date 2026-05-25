@@ -54,6 +54,26 @@ public class TutorialManager : MonoBehaviour
             case 3: // Paso 4: Abrir el Menú
                 if (Keyboard.current.tabKey.wasPressedThisFrame) NextStep();
                 break;
+
+            case 4: // Paso 5: Barra de acceso rápido (Hotbar)
+                bool pressedHotbarKey = false;
+
+                // Comprobamos si pulsa algún número secuencialmente del 1 al 0
+                for (int i = (int)Key.Digit1; i <= (int)Key.Digit0; i++)
+                {
+                    if (Keyboard.current[(Key)i].wasPressedThisFrame)
+                    {
+                        pressedHotbarKey = true;
+                        break;
+                    }
+                }
+
+                // Avanzamos si pulsa un número del 1-0 o la tecla 'C' para saltarlo
+                if (Keyboard.current.cKey.wasPressedThisFrame || pressedHotbarKey)
+                {
+                    NextStep();
+                }
+                break;
         }
     }
 
@@ -74,6 +94,9 @@ public class TutorialManager : MonoBehaviour
             case 3:
                 tutorialText.text = "Pulsa 'TAB' para abrir el menú de inventario, misiones y opciones.";
                 break;
+            case 4:
+                tutorialText.text = "Pulsa del '1' al '0' para usar objetos de la barra rápida (o pulsa 'C' para continuar).";
+                break;
         }
     }
 
@@ -82,7 +105,8 @@ public class TutorialManager : MonoBehaviour
     {
         currentStep++;
 
-        if (currentStep > 3)
+        // AHORA TENEMOS 5 PASOS (del 0 al 4)
+        if (currentStep > 4)
         {
             // Apagamos el panel
             tutorialPanel.SetActive(false);

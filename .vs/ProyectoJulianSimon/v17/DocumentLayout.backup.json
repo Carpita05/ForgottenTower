@@ -3,48 +3,80 @@
   "WorkspaceRootPath": "C:\\Users\\juli1\\ProyectoJulianSimon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|c:\\users\\juli1\\proyectojuliansimon\\assets\\scripts\\bosstrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bosstrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|c:\\users\\juli1\\proyectojuliansimon\\assets\\scripts\\tutorialmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tutorialmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|c:\\users\\juli1\\proyectojuliansimon\\assets\\scripts\\bosshealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bosshealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|c:\\users\\juli1\\proyectojuliansimon\\assets\\scripts\\tabscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tabscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|C:\\Users\\juli1\\ProyectoJulianSimon\\assets\\scripts\\bounceeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bounceeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|c:\\users\\juli1\\proyectojuliansimon\\assets\\scripts\\strengthpotionitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\strengthpotionitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|C:\\Users\\juli1\\ProyectoJulianSimon\\assets\\scripts\\itemdraghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\itemdraghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|C:\\Users\\juli1\\ProyectoJulianSimon\\assets\\scripts\\rewardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rewardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|C:\\Users\\juli1\\ProyectoJulianSimon\\assets\\scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|C:\\Users\\juli1\\ProyectoJulianSimon\\assets\\scripts\\playercombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|C:\\Users\\juli1\\ProyectoJulianSimon\\assets\\scripts\\mainmenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|C:\\Users\\juli1\\ProyectoJulianSimon\\assets\\scripts\\soundeffectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|c:\\users\\juli1\\proyectojuliansimon\\assets\\scripts\\soundeffectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\soundeffectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|C:\\Users\\juli1\\ProyectoJulianSimon\\assets\\scripts\\negotiaztionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\negotiaztionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|c:\\users\\juli1\\proyectojuliansimon\\assets\\scripts\\soundeffectlibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\soundeffectlibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|C:\\Users\\juli1\\ProyectoJulianSimon\\assets\\scripts\\cinematiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cinematiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|c:\\users\\juli1\\proyectojuliansimon\\assets\\scripts\\rewardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rewardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|c:\\users\\juli1\\proyectojuliansimon\\assets\\scripts\\slot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\slot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|c:\\users\\juli1\\proyectojuliansimon\\assets\\scripts\\screenfader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\screenfader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|c:\\users\\juli1\\proyectojuliansimon\\assets\\scripts\\screenshakecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\screenshakecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|c:\\users\\juli1\\proyectojuliansimon\\assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|c:\\users\\juli1\\proyectojuliansimon\\assets\\scripts\\scenestartmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenestartmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|c:\\users\\juli1\\proyectojuliansimon\\assets\\scripts\\savecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\savecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|c:\\users\\juli1\\proyectojuliansimon\\assets\\scripts\\savedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\savedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|c:\\users\\juli1\\proyectojuliansimon\\assets\\scripts\\returntomenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\returntomenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|c:\\users\\juli1\\proyectojuliansimon\\assets\\scripts\\questui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\questui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|c:\\users\\juli1\\proyectojuliansimon\\assets\\scripts\\questcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\questcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|c:\\users\\juli1\\proyectojuliansimon\\assets\\scripts\\quest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\quest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|c:\\users\\juli1\\proyectojuliansimon\\assets\\scripts\\playerstatusui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerstatusui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|c:\\users\\juli1\\proyectojuliansimon\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -59,136 +91,249 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BossTrigger.cs",
-              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\BossTrigger.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\BossTrigger.cs",
-              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\BossTrigger.cs",
-              "RelativeToolTip": "Assets\\Scripts\\BossTrigger.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "TutorialManager.cs",
+              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\TutorialManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TutorialManager.cs",
+              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\TutorialManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TutorialManager.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAAGwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T23:00:20.601Z",
+              "WhenOpened": "2026-05-23T23:38:17.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TabsController.cs",
+              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\TabsController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TabsController.cs",
+              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\TabsController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TabsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T23:38:15.697Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "BounceEffect.cs",
-              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\BounceEffect.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\BounceEffect.cs",
-              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\BounceEffect.cs",
-              "RelativeToolTip": "Assets\\Scripts\\BounceEffect.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAwBMAAAAtAAAAAAAAAA==",
+              "Title": "StrengthPotionItem.cs",
+              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\StrengthPotionItem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\StrengthPotionItem.cs",
+              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\StrengthPotionItem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\StrengthPotionItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T19:47:21.686Z"
+              "WhenOpened": "2026-05-23T23:38:13.651Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PlayerCombat.cs",
-              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\PlayerCombat.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerCombat.cs",
-              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\PlayerCombat.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerCombat.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAowEQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T16:24:27.86Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "SoundEffectManager.cs",
               "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\SoundEffectManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SoundEffectManager.cs",
               "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\SoundEffectManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\SoundEffectManager.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAkwE8AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAowJcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T15:42:43.906Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "NegotiaztionManager.cs",
-              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\NegotiaztionManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\NegotiaztionManager.cs",
-              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\NegotiaztionManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\NegotiaztionManager.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAowHYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T18:24:58.556Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BossHealth.cs",
-              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\BossHealth.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\BossHealth.cs",
-              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\BossHealth.cs",
-              "RelativeToolTip": "Assets\\Scripts\\BossHealth.cs",
-              "ViewState": "AgIAAJQAAAAAAAAAAAAAwMQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T12:01:24.673Z",
+              "WhenOpened": "2026-05-23T23:38:10.67Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "SoundEffectLibrary.cs",
+              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\SoundEffectLibrary.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SoundEffectLibrary.cs",
+              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\SoundEffectLibrary.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SoundEffectLibrary.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwD8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T23:36:12.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Slot.cs",
+              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\Slot.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Slot.cs",
+              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\Slot.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Slot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T23:35:58.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ScreenShakeController.cs",
+              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\ScreenShakeController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScreenShakeController.cs",
+              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\ScreenShakeController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScreenShakeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T23:34:22.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ScreenFader.cs",
+              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\ScreenFader.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScreenFader.cs",
+              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\ScreenFader.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScreenFader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T23:34:20.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ScoreManager.cs",
+              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\ScoreManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScoreManager.cs",
+              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\ScoreManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScoreManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvzQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T23:34:18.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "RewardController.cs",
               "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\RewardController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RewardController.cs",
               "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\RewardController.cs",
               "RelativeToolTip": "Assets\\Scripts\\RewardController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAswC8AAABEAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwEYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T19:48:12.062Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ItemDragHandler.cs",
-              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\ItemDragHandler.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ItemDragHandler.cs",
-              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\ItemDragHandler.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ItemDragHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T22:45:01.711Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MainMenuManager.cs",
-              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\MainMenuManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenuManager.cs",
-              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\MainMenuManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\MainMenuManager.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAjwE0AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T18:07:14.491Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EnemyHealth.cs",
-              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\EnemyHealth.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyHealth.cs",
-              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\EnemyHealth.cs",
-              "RelativeToolTip": "Assets\\Scripts\\EnemyHealth.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAswFkAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T17:37:09.975Z"
+              "WhenOpened": "2026-05-23T23:31:18.152Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "CinematicController.cs",
-              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\CinematicController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CinematicController.cs",
-              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\CinematicController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CinematicController.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAgwCwAAAABAAAAAAAAAA==",
+              "Title": "SceneStartManager.cs",
+              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\SceneStartManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SceneStartManager.cs",
+              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\SceneStartManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SceneStartManager.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwF0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-22T14:56:38.411Z"
+              "WhenOpened": "2026-05-23T23:34:16.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SaveController.cs",
+              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\SaveController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SaveController.cs",
+              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\SaveController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SaveController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T23:33:24.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SaveData.cs",
+              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\SaveData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SaveData.cs",
+              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\SaveData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SaveData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T23:33:12.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ReturnToMenu.cs",
+              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\ReturnToMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ReturnToMenu.cs",
+              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\ReturnToMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ReturnToMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T23:31:15.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "QuestUI.cs",
+              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\QuestUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\QuestUI.cs",
+              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\QuestUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\QuestUI.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAQwGoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T23:31:13.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "QuestController.cs",
+              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\QuestController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\QuestController.cs",
+              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\QuestController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\QuestController.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAQwKMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T23:29:43.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Quest.cs",
+              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\Quest.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Quest.cs",
+              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\Quest.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Quest.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwFcAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T23:29:41.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PlayerStatusUI.cs",
+              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\PlayerStatusUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerStatusUI.cs",
+              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\PlayerStatusUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerStatusUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T23:29:38.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAQwD4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T23:29:36.601Z",
+              "EditorCaption": ""
             }
           ]
         }
