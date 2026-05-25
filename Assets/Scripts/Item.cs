@@ -3,14 +3,18 @@ using UnityEngine;
 using UnityEngine.UI;
 
 // Este es el "Molde Maestro" para cualquier cosa que se pueda recoger en el juego.
-// No se usa directamente, sino que otros scripts (como HealthPotionItem) se basan en este 
-// para heredar todas estas funciones básicas de agruparse y mostrar su nombre.
 public class Item : MonoBehaviour
 {
     [Header("Datos del Objeto")]
     public int ID;               // El código de barras único de este objeto
     public string itemName;      // El nombre real que leerá el jugador
     public int quantity = 1;     // Cuántos objetos hay en este montón
+
+    [Header("Configuración de Inventario")]
+    public int maxStackSize = 99; 
+    public GameObject itemPrefab;
+
+    [HideInInspector] public bool isPickedUp = false;
 
     private TMP_Text quantityText; // El pequeño texto en la esquina del objeto que muestra la cantidad
 
@@ -41,18 +45,14 @@ public class Item : MonoBehaviour
         UpdateQuantityDisplay();
     }
 
-    // Quita objetos del montón (por ejemplo, al gastar una poción o venderla)
-    public int RemoveFromStack(int amount = 1)
+    // Quita objetos del montón
+    public void RemoveFromStack(int amount = 1)
     {
-        // Nos aseguramos de no intentar quitar más objetos de los que realmente tenemos
-        int removed = Mathf.Min(amount, quantity);
-        quantity -= removed;
+        quantity -= amount;
         UpdateQuantityDisplay();
-
-        return removed; // Devuelve cuántos ha conseguido quitar realmente
     }
 
-    // Crea un clon exacto de este montón (muy útil para dividir objetos 
+    // Herramienta que clona este objeto visualmente (útil para dividir objetos 
     // en dos huecos distintos del inventario pulsando el clic derecho)
     public GameObject CloneItem(int newQuantity)
     {
@@ -91,6 +91,6 @@ public class Item : MonoBehaviour
             ItemPickUpUIController.Instance.ShowItemPickup(itemName, itemIcon);
         }
 
-        Debug.Log($"El jugador ha recogido: {itemName} (ID: {ID}).");
+        Debug.Log($"El jugador ha recogido: {itemName} (ID: {ID})");
     }
 }

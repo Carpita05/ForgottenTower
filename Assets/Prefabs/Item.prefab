@@ -370,4 +370,6 @@ MonoBehaviour:
   ID: 1
   itemName: Pocion Roja
   quantity: 1
+  maxStackSize: 99
+  itemPrefab: {fileID: 5874880800859312978}
   healAmount: 3

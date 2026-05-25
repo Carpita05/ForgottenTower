@@ -145,3 +145,5 @@ MonoBehaviour:
   ID: 2
   itemName: Pocion Verde
   quantity: 1
+  maxStackSize: 99
+  itemPrefab: {fileID: 1912807645346359121}

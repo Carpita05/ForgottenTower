@@ -3,80 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\juli1\\ProyectoJulianSimon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|c:\\users\\juli1\\proyectojuliansimon\\assets\\scripts\\tutorialmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tutorialmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|c:\\users\\juli1\\proyectojuliansimon\\assets\\scripts\\itemdraghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\itemdraghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|C:\\Users\\juli1\\ProyectoJulianSimon\\assets\\scripts\\strengthpotionitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\strengthpotionitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|c:\\users\\juli1\\proyectojuliansimon\\assets\\scripts\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|C:\\Users\\juli1\\ProyectoJulianSimon\\assets\\scripts\\tabscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tabscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|c:\\users\\juli1\\proyectojuliansimon\\assets\\scripts\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|C:\\Users\\juli1\\ProyectoJulianSimon\\assets\\scripts\\soundeffectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\soundeffectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|C:\\Users\\juli1\\ProyectoJulianSimon\\assets\\scripts\\soundeffectlibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\soundeffectlibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|C:\\Users\\juli1\\ProyectoJulianSimon\\assets\\scripts\\rewardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rewardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|C:\\Users\\juli1\\ProyectoJulianSimon\\assets\\scripts\\slot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\slot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|C:\\Users\\juli1\\ProyectoJulianSimon\\assets\\scripts\\screenfader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\screenfader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|C:\\Users\\juli1\\ProyectoJulianSimon\\assets\\scripts\\screenshakecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\screenshakecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|C:\\Users\\juli1\\ProyectoJulianSimon\\assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|C:\\Users\\juli1\\ProyectoJulianSimon\\assets\\scripts\\scenestartmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenestartmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|C:\\Users\\juli1\\ProyectoJulianSimon\\assets\\scripts\\savecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|c:\\users\\juli1\\proyectojuliansimon\\assets\\scripts\\savecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\savecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|C:\\Users\\juli1\\ProyectoJulianSimon\\assets\\scripts\\savedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\savedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|c:\\users\\juli1\\proyectojuliansimon\\assets\\scripts\\tutorialtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tutorialtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|C:\\Users\\juli1\\ProyectoJulianSimon\\assets\\scripts\\returntomenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\returntomenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|c:\\users\\juli1\\proyectojuliansimon\\assets\\scripts\\playeritemcollector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playeritemcollector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|C:\\Users\\juli1\\ProyectoJulianSimon\\assets\\scripts\\questui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\questui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|C:\\Users\\juli1\\ProyectoJulianSimon\\assets\\scripts\\questcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\questcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|C:\\Users\\juli1\\ProyectoJulianSimon\\assets\\scripts\\quest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\quest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|C:\\Users\\juli1\\ProyectoJulianSimon\\assets\\scripts\\playerstatusui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerstatusui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|C:\\Users\\juli1\\ProyectoJulianSimon\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|C:\\Users\\juli1\\ProyectoJulianSimon\\assets\\scripts\\tutorialmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB8CA1D2-CBC7-554E-63E8-9CED786D94C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tutorialmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,238 +38,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TutorialManager.cs",
-              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\TutorialManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TutorialManager.cs",
-              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\TutorialManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TutorialManager.cs",
-              "ViewState": "AgIAAIQAAAAAAAAAAAAAAIQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T23:38:17.857Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TabsController.cs",
-              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\TabsController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TabsController.cs",
-              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\TabsController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TabsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T23:38:15.697Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StrengthPotionItem.cs",
-              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\StrengthPotionItem.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\StrengthPotionItem.cs",
-              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\StrengthPotionItem.cs",
-              "RelativeToolTip": "Assets\\Scripts\\StrengthPotionItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T23:38:13.651Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "SoundEffectManager.cs",
-              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\SoundEffectManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SoundEffectManager.cs",
-              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\SoundEffectManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SoundEffectManager.cs",
-              "ViewState": "AgIAAIoAAAAAAAAAAAAowJcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T23:38:10.67Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SoundEffectLibrary.cs",
-              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\SoundEffectLibrary.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SoundEffectLibrary.cs",
-              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\SoundEffectLibrary.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SoundEffectLibrary.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwD8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T23:36:12.948Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Slot.cs",
-              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\Slot.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Slot.cs",
-              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\Slot.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Slot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T23:35:58.658Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ScreenShakeController.cs",
-              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\ScreenShakeController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ScreenShakeController.cs",
-              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\ScreenShakeController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ScreenShakeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T23:34:22.779Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ScreenFader.cs",
-              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\ScreenFader.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ScreenFader.cs",
-              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\ScreenFader.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ScreenFader.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T23:34:20.678Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ScoreManager.cs",
-              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\ScoreManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ScoreManager.cs",
-              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\ScoreManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ScoreManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvzQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T23:34:18.59Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RewardController.cs",
-              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\RewardController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\RewardController.cs",
-              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\RewardController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\RewardController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwEYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T23:31:18.152Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "SceneStartManager.cs",
-              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\SceneStartManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SceneStartManager.cs",
-              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\SceneStartManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SceneStartManager.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAQwF0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T23:34:16.06Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "SaveController.cs",
               "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\SaveController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SaveController.cs",
               "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\SaveController.cs",
               "RelativeToolTip": "Assets\\Scripts\\SaveController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAALkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAAAHEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T23:33:24.282Z"
+              "WhenOpened": "2026-05-25T19:24:58.444Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "SaveData.cs",
-              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\SaveData.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SaveData.cs",
-              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\SaveData.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SaveData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\Item.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Item.cs",
+              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\Item.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T23:33:12.711Z"
+              "WhenOpened": "2026-05-25T19:17:44.584Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ReturnToMenu.cs",
-              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\ReturnToMenu.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ReturnToMenu.cs",
-              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\ReturnToMenu.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ReturnToMenu.cs",
+              "DocumentIndex": 0,
+              "Title": "ItemDragHandler.cs",
+              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\ItemDragHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ItemDragHandler.cs",
+              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\ItemDragHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ItemDragHandler.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAIwBAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T19:14:07.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InventoryController.cs",
+              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\InventoryController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InventoryController.cs",
+              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\InventoryController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InventoryController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwDMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T19:10:41.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TutorialTrigger.cs",
+              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\TutorialTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TutorialTrigger.cs",
+              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\TutorialTrigger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TutorialTrigger.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T23:31:15.835Z"
+              "WhenOpened": "2026-05-25T18:49:27.445Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "QuestUI.cs",
-              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\QuestUI.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\QuestUI.cs",
-              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\QuestUI.cs",
-              "RelativeToolTip": "Assets\\Scripts\\QuestUI.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAQwGoAAAABAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "PlayerItemCollector.cs",
+              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\PlayerItemCollector.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerItemCollector.cs",
+              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\PlayerItemCollector.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerItemCollector.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T23:31:13.277Z"
+              "WhenOpened": "2026-05-25T18:47:04.62Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "QuestController.cs",
-              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\QuestController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\QuestController.cs",
-              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\QuestController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\QuestController.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAQwKMAAAABAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "TutorialManager.cs",
+              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\TutorialManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TutorialManager.cs",
+              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\TutorialManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TutorialManager.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAiwH4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T23:29:43.502Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Quest.cs",
-              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\Quest.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Quest.cs",
-              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\Quest.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Quest.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAQwFcAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T23:29:41.622Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "PlayerStatusUI.cs",
-              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\PlayerStatusUI.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerStatusUI.cs",
-              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\PlayerStatusUI.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerStatusUI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T23:29:38.815Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\PlayerMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
-              "ToolTip": "C:\\Users\\juli1\\ProyectoJulianSimon\\Assets\\Scripts\\PlayerMovement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAQwD4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T23:29:36.601Z"
+              "WhenOpened": "2026-05-25T18:46:33.072Z"
             }
           ]
         }

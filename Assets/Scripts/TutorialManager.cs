@@ -2,63 +2,62 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.InputSystem;
 
-// Este script guía al jugador con un tutorial paso a paso la primera vez que juega.
-// Lee las teclas que pulsamos y, cuando lo completamos, usa 'PlayerPrefs' 
-// para recordar que ya no tiene que volver a mostrárnoslo nunca más.
+// Sistema de Tutorial por Eventos
 public class TutorialManager : MonoBehaviour
 {
-    [Header("UI del Tutorial")]
-    public GameObject tutorialPanel;        // El cuadro de texto del tutorial
-    public TextMeshProUGUI tutorialText;    // El texto que va cambiando
+    public static TutorialManager Instance { get; private set; }
 
-    private int currentStep = 0; // En qué paso del tutorial estamos
+    [Header("UI del Tutorial")]
+    public GameObject tutorialPanel;
+    public TextMeshProUGUI tutorialText;
+
+    // -1 significa que no hay ningún tutorial mostrándose ahora mismo
+    private int activeTutorial = -1;
+
+    private void Awake()
+    {
+        // Lo convertimos en Singleton para poder llamarlo desde las zonas (Triggers)
+        if (Instance == null) Instance = this;
+        else Destroy(gameObject);
+    }
 
     void Start()
     {
-        // Comprobamos en el disco duro si el jugador ya completó el tutorial en el pasado.
-        // Si el valor guardado es 1 (Sí), apagamos el tutorial directamente y no hacemos nada más.
-        if (PlayerPrefs.GetInt("TutorialCompleted", 0) == 1)
-        {
-            tutorialPanel.SetActive(false);
-            return;
-        }
-
-        // Si es la primera vez (el valor es 0), encendemos el panel y mostramos la primera instrucción
-        tutorialPanel.SetActive(true);
-        ShowCurrentStep();
+        tutorialPanel.SetActive(false);
+        // El primer tutorial (Moverse) intenta saltar nada más iniciar la partida
+        ShowTutorial(0);
     }
 
     void Update()
     {
-        if (!tutorialPanel.activeSelf) return;
+        // Si no hay panel activo, no leemos teclas para el tutorial
+        if (!tutorialPanel.activeSelf || activeTutorial == -1) return;
 
-        // Dependiendo de en qué paso estemos, el sistema espera a que pulsemos una tecla específica
-        switch (currentStep)
+        bool stepCompleted = false;
+
+        // Comprobamos qué tecla debe pulsar según el tutorial que esté en pantalla
+        switch (activeTutorial)
         {
-            case 0: // Paso 1: Moverse
+            case 0: // Tutorial 1: Moverse
                 if (Keyboard.current.upArrowKey.wasPressedThisFrame || Keyboard.current.downArrowKey.wasPressedThisFrame ||
                     Keyboard.current.leftArrowKey.wasPressedThisFrame || Keyboard.current.rightArrowKey.wasPressedThisFrame)
-                {
-                    NextStep();
-                }
+                    stepCompleted = true;
                 break;
 
-            case 1: // Paso 2: Interactuar
-                if (Keyboard.current.cKey.wasPressedThisFrame) NextStep();
+            case 1: // Tutorial 2: Interactuar
+                if (Keyboard.current.cKey.wasPressedThisFrame) stepCompleted = true;
                 break;
 
-            case 2: // Paso 3: Atacar
-                if (Keyboard.current.zKey.wasPressedThisFrame) NextStep();
+            case 2: // Tutorial 3: Atacar
+                if (Keyboard.current.zKey.wasPressedThisFrame) stepCompleted = true;
                 break;
 
-            case 3: // Paso 4: Abrir el Menú
-                if (Keyboard.current.tabKey.wasPressedThisFrame) NextStep();
+            case 3: // Tutorial 4: Abrir el Menú
+                if (Keyboard.current.tabKey.wasPressedThisFrame) stepCompleted = true;
                 break;
 
-            case 4: // Paso 5: Barra de acceso rápido (Hotbar)
+            case 4: // Tutorial 5: Hotbar
                 bool pressedHotbarKey = false;
-
-                // Comprobamos si pulsa algún número secuencialmente del 1 al 0
                 for (int i = (int)Key.Digit1; i <= (int)Key.Digit0; i++)
                 {
                     if (Keyboard.current[(Key)i].wasPressedThisFrame)
@@ -67,67 +66,62 @@ public class TutorialManager : MonoBehaviour
                         break;
                     }
                 }
-
-                // Avanzamos si pulsa un número del 1-0 o la tecla 'C' para saltarlo
-                if (Keyboard.current.cKey.wasPressedThisFrame || pressedHotbarKey)
-                {
-                    NextStep();
-                }
+                if (Keyboard.current.cKey.wasPressedThisFrame || pressedHotbarKey) stepCompleted = true;
                 break;
+        }
+
+        // Si pulsó la tecla correcta, cerramos este tutorial específico
+        if (stepCompleted)
+        {
+            CompleteTutorial(activeTutorial);
         }
     }
 
-    // Actualiza el texto en pantalla según el paso actual
-    void ShowCurrentStep()
+    // --- FUNCIÓN PÚBLICA PARA LLAMAR A LOS TUTORIALES DESDE CUALQUIER SCRIPT ---
+    public void ShowTutorial(int tutorialIndex)
     {
-        switch (currentStep)
+        // Comprobamos si ESTE tutorial en concreto ya lo hicimos en el pasado
+        if (PlayerPrefs.GetInt("Tutorial_" + tutorialIndex, 0) == 1) return;
+
+        activeTutorial = tutorialIndex;
+        tutorialPanel.SetActive(true);
+
+        // Mostramos el texto correspondiente
+        switch (tutorialIndex)
         {
-            case 0:
-                tutorialText.text = "Usa las FLECHAS para moverte.";
-                break;
-            case 1:
-                tutorialText.text = "Pulsa 'C' para interactuar con objetos y personajes.";
-                break;
-            case 2:
-                tutorialText.text = "Pulsa 'Z' para atacar con tu arma.";
-                break;
-            case 3:
-                tutorialText.text = "Pulsa 'TAB' para abrir el menú de inventario, misiones y opciones.";
-                break;
-            case 4:
-                tutorialText.text = "Pulsa del '1' al '0' para usar objetos de la barra rápida (o pulsa 'C' para continuar).";
-                break;
+            case 0: tutorialText.text = "Usa las FLECHAS para moverte."; break;
+            case 1: tutorialText.text = "Pulsa 'C' para interactuar con objetos y personajes."; break;
+            case 2: tutorialText.text = "Pulsa 'Z' para atacar con tu arma."; break;
+            case 3: tutorialText.text = "Pulsa 'TAB' para abrir el menú de inventario, misiones y opciones."; break;
+            case 4: tutorialText.text = "Pulsa del '1' al '0' para usar objetos de la barra rápida (o pulsa 'C' para continuar)."; break;
         }
     }
 
-    // Avanza al siguiente paso o termina el tutorial
-    void NextStep()
+    private void CompleteTutorial(int tutorialIndex)
     {
-        currentStep++;
-
-        // AHORA TENEMOS 5 PASOS (del 0 al 4)
-        if (currentStep > 4)
-        {
-            // Apagamos el panel
-            tutorialPanel.SetActive(false);
-
-            // Guardamos permanentemente en el ordenador que el tutorial ya está hecho
-            PlayerPrefs.SetInt("TutorialCompleted", 1);
-            PlayerPrefs.Save();
-        }
-        else
-        {
-            ShowCurrentStep();
-        }
-    }
-
-    // Herramienta técnica: Nos permite reiniciar el tutorial haciendo clic derecho en el script 
-    // dentro del Inspector de Unity (muy útil para pruebas de desarrollo).
-    [ContextMenu("Resetear Tutorial")]
-    public void ResetTutorial()
-    {
-        PlayerPrefs.SetInt("TutorialCompleted", 0);
+        // Guardamos que ESTE tutorial ya está completado
+        PlayerPrefs.SetInt("Tutorial_" + tutorialIndex, 1);
         PlayerPrefs.Save();
-        Debug.Log("Tutorial reseteado. Vuelve a darle al Play para verlo.");
+
+        tutorialPanel.SetActive(false);
+        activeTutorial = -1;
+
+        // "El cuarto tiene que pasar después del primero":
+        // Si acabamos de completar el tutorial 0 (Moverse), lanzamos automáticamente el 3 (Menú)
+        if (tutorialIndex == 0)
+        {
+            ShowTutorial(3);
+        }
+    }
+
+    [ContextMenu("Resetear Todos los Tutoriales")]
+    public void ResetAllTutorials()
+    {
+        for (int i = 0; i < 5; i++)
+        {
+            PlayerPrefs.SetInt("Tutorial_" + i, 0);
+        }
+        PlayerPrefs.Save();
+        Debug.Log("Todos los tutoriales han sido reseteados.");
     }
 }

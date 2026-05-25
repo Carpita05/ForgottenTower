@@ -32,6 +32,9 @@ public class PlayerItemCollector : MonoBehaviour
                     // Si ha cabido en la mochila, mostramos el cartelito de "Objeto recogido"
                     item.ShowPopUp();
 
+                    //mostrar tutorial de uso de objetos en la hotbar
+                    if (TutorialManager.Instance != null) TutorialManager.Instance.ShowTutorial(4);
+
                     // Destruimos el objeto del suelo 3D (porque ahora lo tenemos en la interfaz 2D)
                     Destroy(collision.gameObject);
                 }

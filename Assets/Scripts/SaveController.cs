@@ -112,10 +112,24 @@ public class SaveController : MonoBehaviour
             player.transform.position = saveData.playerPosition;
 
             // 3. Ajustamos los límites de la cámara a la habitación correcta
-            PolygonCollider2D saveMapBoundary = GameObject.Find(saveData.mapBoundary).GetComponent<PolygonCollider2D>();
-            if (saveMapBoundary != null)
+            if (!string.IsNullOrEmpty(saveData.mapBoundary)) // Comprobamos que el JSON tenga un nombre válido guardado
             {
-                FindObjectOfType<CinemachineConfiner2D>().BoundingShape2D = saveMapBoundary;
+                GameObject boundaryObj = GameObject.Find(saveData.mapBoundary); // Buscamos el objeto por su nombre
+
+                if (boundaryObj != null) // Solo si hemos encontrado el objeto en el mapa...
+                {
+                    PolygonCollider2D saveMapBoundary = boundaryObj.GetComponent<PolygonCollider2D>();
+                    CinemachineConfiner2D confiner = FindObjectOfType<CinemachineConfiner2D>();
+
+                    if (saveMapBoundary != null && confiner != null)
+                    {
+                        confiner.BoundingShape2D = saveMapBoundary;
+                    }
+                }
+                else
+                {
+                    Debug.LogWarning("Aviso: No se encontró la zona de mapa guardada ('" + saveData.mapBoundary + "'). Manteniendo la zona inicial por defecto.");
+                }
             }
 
             // 4. Reconstruimos los objetos del inventario y la barra inferior
